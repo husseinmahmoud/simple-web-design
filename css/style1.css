@@ -1,0 +1,103 @@
+body{
+    background: papayawhip;
+    //overflow: hidden;
+}
+#container{
+    background: white;
+    min-height: 1000px;
+    overflow: hidden;
+}
+#header{
+    min-height: 100px;
+    background: #e4b9c0;
+    overflow: hidden;
+}
+#header_part1{
+    min-height: 100px;
+    background: #2aabd2;
+    overflow: hidden;
+}
+#header_part2{
+    min-height: 30px;
+    background: white;
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:680px) {
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+#body1{
+    min-height: 100px;
+    padding: 10px 20px 20px 20px;
+    overflow: hidden;
+    background: white;
+}
+
+
+#body2{
+    min-height: 150px;
+    overflow: hidden;
+    background-image: url('../img/fixed.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#body3 {
+    min-height: 150px;
+    overflow: hidden;
+    background: white;
+    padding: 20px;
+}
+
+#footer{
+    background: #333333;
+    min-height: 40px;
+    padding: 10px;
+    overflow: hidden;
+}
+#copy_right{
+    color: white;
+}
+#social_links{
+
+}
